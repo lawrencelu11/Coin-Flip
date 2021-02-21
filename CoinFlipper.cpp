@@ -7,7 +7,7 @@ using namespace std;
 void FlipCoin()
 {
     srand(time(0));
-    int counter, hcount, tcount = 0;
+    int counter = 0, hcount = 0, tcount = 0;
     int nflip, outcome;
 
     cout << "Enter number of coin flips: ";
@@ -35,6 +35,7 @@ void FlipCoin()
 int main()
 {
     FlipCoin();
+    return 0;
 }
 
 
