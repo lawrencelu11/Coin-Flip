@@ -4,7 +4,7 @@
 
 using namespace std;
 
-void FlipCoin()
+int main()
 {
     srand(time(0));
     int counter = 0, hcount = 0, tcount = 0;
@@ -30,16 +30,5 @@ void FlipCoin()
     cout << "Heads: " << hcount << endl;
     cout << "Tails: " << tcount << endl;
     cout << "Number of flips: " << hcount + tcount << endl;
-}
-
-int main()
-{
-    FlipCoin();
     return 0;
 }
-
-
-
-
-
-
